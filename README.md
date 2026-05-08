@@ -281,6 +281,8 @@ Database writes only occur if:
 
 ---
 
+To view this assignment, please download the JSON file and import it into Postman.
+
 # Final Concurrency Result
 
 The implementation guarantees:
