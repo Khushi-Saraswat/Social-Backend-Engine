@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: grid07-postgres
+    environment:
+      POSTGRES_DB: grid07
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      # Add this line to handle the Asia/Calcutta request from your laptop
+      TZ: Asia/Kolkata 
+    ports:
+      - "5433:5432"
+
+  redis:
+    image: redis:7
+    container_name: grid07-redis
+    ports:
+      - "6379:6379"
