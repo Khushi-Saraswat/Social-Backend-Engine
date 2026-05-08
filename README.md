@@ -1,4 +1,4 @@
-# Grid07 Assignment — AI Social Backend Engine
+# Grid07 Assignment — Social Backend Engine
 
 ---
 
